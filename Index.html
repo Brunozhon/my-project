@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Funny Jokes Website</title>
+  </head>
+  <body>
+    <p>Funny jokes: </p>
+    <br>
+    <button onclick="joke('What makes you sing high', 'Helium')">Joke 1 (Hints: Anser is H__i_m)</button>
+    <br>
+    <br>
+    <button onclick="joke('What can turn a extinct volcano on', 'Hydrogen')">Joke 2 (Hints: answer is H____gen)</button>
+    <script>
+      function joke(q, a) {
+        var jokeUser1 = "";
+        while (jokeUser1 != a) {
+          jokeUser1 = prompt(q);
+        }
+        alert("Great job!");
+      }
+    </script>
+  </body>
+</html>
